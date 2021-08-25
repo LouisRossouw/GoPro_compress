@@ -32,8 +32,8 @@ for f in files:
 
     source = source_file_path + source_file_ext
 
-    video_format = ['.MP4', '.mp4', '.mov']
-    image_format = ['.JPG', '.jpg', '.png', '.gif']
+    video_format = ['.MP4', '.mp4', '.mov', '.3gp', '.flv']
+    image_format = ['.JPG', '.jpg', '.png', '.gif', '.jpeg']
 
     for video_f in video_format:
         if source_file_ext == video_f:
